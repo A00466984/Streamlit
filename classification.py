@@ -69,7 +69,7 @@ hue = st.slider("Hue", 0.40, 0.96, 1.80)
 dilution = st.slider("Dilution", 1.20, 2.78, 4.00)
 proline = st.slider("proline", 278.0, 673.5, 1680.0)
 
-prediction = clf.predict([[alcohol_concentration,malic_acid,ash,acl,phenol,flavanoids,nonflavanoid_phenols,
+prediction = clf.predict([[alcohol_concentration,malic_acid,ash,acl,mag,phenol,flavanoids,nonflavanoid_phenols,
                            proanth,color_int,hue,dilution,proline]])
 
 # Show the prediction to the user
