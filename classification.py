@@ -64,7 +64,7 @@ flavanoids = st.slider("Flavanoids", 0.30, 2.13, 5.50)
 nonflavanoid_phenols = st.slider("Nonflavanoid_phenols", 0.10, 0.34, 0.70)
 proanth = st.slider("Proanth", 0.40, 1.55, 3.60)
 
-color_int = st.slider("Color Intensity", 1.20, 4,70, 13.00)
+color_int = st.slider("Color Intensity", 1.20, 4.70, 13.00)
 hue = st.slider("Hue", 0.40, 0.96, 1.80)
 dilution = st.slider("Dilution", 1.20, 2.78, 4.00)
 proline = st.slider("proline", 278.0, 673.5, 1680.0)
