@@ -69,8 +69,8 @@ hue = st.slider("Hue", 0.40, 1.80, 0.96)
 dilution = st.slider("Dilution", 1.20, 4.00, 2.78)
 proline = st.slider("proline", 278.0, 1680.0, 673.5)
 
-prediction = clf.predict([[alcohol_concentration,malic_acid,ash,acl,mag,phenol,flavanoids,nonflavanoid_phenols,
-                           proanth,color_int,hue,dilution,proline]])
+prediction = clf.predict([[alcohol_concentration, malic_acid, ash, acl, mag, phenol, flavanoids, nonflavanoid_phenols,
+                           proanth, color_int, hue, dilution, proline]])
 
 # Show the prediction to the user
 st.write(f"Predicted Wine Class: {wine.target[prediction[0]]}")
